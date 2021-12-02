@@ -27,7 +27,7 @@
  
   
 ## Step 4:
-  Copy and paste your token into `token.txt` then save and close it.
+  **Copy and paste** your token into `token.txt` then save and close it.
     
 ## Step 5:
-  Double click to run the application `swag_backup_downloader.exe` then if your token is vaild the download will begin shortly.:+1:
+  **Double click** to run the application `swag_backup_downloader.exe` then if your token is vaild the download will begin shortly.:+1:
