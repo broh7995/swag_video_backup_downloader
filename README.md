@@ -10,9 +10,25 @@
   
 ## Step 3:
   To extract token open any page in https://app.swag.live/ and **Press F12** to open DevTool from your browser then **Paste** the following code into the console. Hit **Enter** then your token will be printed.
+  Try
   ```
   var db;
   var request = indexedDB.open("localforage", 2);
+  request.onsuccess = function() {
+    db = request.result;
+    var tx = db.transaction("keyvaluepairs", "readonly");
+    var store = tx.objectStore("keyvaluepairs");
+    var _request = store.getAll("_accessToken")
+    _request.onsuccess = function() {
+      var token = _request.result.toString();
+      console.log(token);
+    };
+  };
+  ```
+  Or
+  ```
+  var db;
+  var request = indexedDB.open("localforage", 3);
   request.onsuccess = function() {
     db = request.result;
     var tx = db.transaction("keyvaluepairs", "readonly");
@@ -47,6 +63,22 @@
   
 ## 第三步:
   在 https://app.swag.live/ 的任何頁面**按下F12** 打開開發者工具把下面的程式碼複製貼上在console內按下**Enter**鍵, Token就會印在下方
+  試試 indexedDB有些人的瀏覽器升級到v3了請改用第二個程式碼如果不確定請兩個都嘗試看看
+  ```
+  var db;
+  var request = indexedDB.open("localforage", 2);
+  request.onsuccess = function() {
+    db = request.result;
+    var tx = db.transaction("keyvaluepairs", "readonly");
+    var store = tx.objectStore("keyvaluepairs");
+    var _request = store.getAll("_accessToken")
+    _request.onsuccess = function() {
+      var token = _request.result.toString();
+      console.log(token);
+    };
+  };
+  ```
+  或者
   ```
   var db;
   var request = indexedDB.open("localforage", 2);
