@@ -81,7 +81,7 @@
   或者
   ```
   var db;
-  var request = indexedDB.open("localforage", );
+  var request = indexedDB.open("localforage", 3);
   request.onsuccess = function() {
     db = request.result;
     var tx = db.transaction("keyvaluepairs", "readonly");
