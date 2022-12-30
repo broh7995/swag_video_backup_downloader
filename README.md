@@ -3,7 +3,7 @@
 #### Windows application for download videos from https://app.swag.live/ 
 
 ## Step 1:
-  Download application from [Here](https://drive.google.com/file/d/1TGD9dhfO2I08xK1EU3bEJ41QPBphvYXl/view?usp=sharing)(google drive).:toolbox:
+  Download application from [Here](https://drive.google.com/file/d/1c-R5LMkjP2oOX_CSpf0ZDca044qpwbfm/view?usp=share_link)(google drive).:toolbox:
 
 ## Step 2:
   Open browser and **Navigate** to https://app.swag.live/ and **Login** your account.
