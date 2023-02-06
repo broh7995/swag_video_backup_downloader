@@ -3,7 +3,7 @@
 #### Windows application for download videos from https://app.swag.live/ 
 
 ## Step 1:
-  Download application from [Here](https://drive.google.com/file/d/1c-R5LMkjP2oOX_CSpf0ZDca044qpwbfm/view?usp=share_link)(google drive).:toolbox:
+  Download application from [Here](https://drive.google.com/file/d/1UGjffzUcOVq7S-m2ySNiW5HAb9ZFLLZj/view?usp=sharing)(google drive).:toolbox:
 
 ## Step 2:
   Open browser and **Navigate** to https://app.swag.live/ and **Login** your account.
@@ -56,7 +56,7 @@
 #### Windows的程式，用來下載在 https://app.swag.live/ 上購買的影片與圖片.
 
 ## 第一步:
-  **下載**[主程式](https://drive.google.com/file/d/1TGD9dhfO2I08xK1EU3bEJ41QPBphvYXl/view?usp=sharing)(google drive).:toolbox:
+  **下載**[主程式](https://drive.google.com/file/d/1UGjffzUcOVq7S-m2ySNiW5HAb9ZFLLZj/view?usp=sharing)(google drive).:toolbox:
 
 ## 第二步:
   使用瀏覽器開啟網頁 https://app.swag.live/ 並且**登入**Swag帳號.
