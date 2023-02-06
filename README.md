@@ -18,7 +18,7 @@
     db = request.result;
     var tx = db.transaction("keyvaluepairs", "readonly");
     var store = tx.objectStore("keyvaluepairs");
-    var _request = store.getAll("_accessToken")
+    var _request = store.getAll("_refreshToken")
     _request.onsuccess = function() {
       var token = _request.result.toString();
       console.log(token);
@@ -33,7 +33,7 @@
     db = request.result;
     var tx = db.transaction("keyvaluepairs", "readonly");
     var store = tx.objectStore("keyvaluepairs");
-    var _request = store.getAll("_accessToken")
+    var _request = store.getAll("_refreshToken")
     _request.onsuccess = function() {
       var token = _request.result.toString();
       console.log(token);
@@ -71,7 +71,7 @@
     db = request.result;
     var tx = db.transaction("keyvaluepairs", "readonly");
     var store = tx.objectStore("keyvaluepairs");
-    var _request = store.getAll("_accessToken")
+    var _request = store.getAll("_refreshToken")
     _request.onsuccess = function() {
       var token = _request.result.toString();
       console.log(token);
@@ -86,7 +86,7 @@
     db = request.result;
     var tx = db.transaction("keyvaluepairs", "readonly");
     var store = tx.objectStore("keyvaluepairs");
-    var _request = store.getAll("_accessToken")
+    var _request = store.getAll("_refreshToken")
     _request.onsuccess = function() {
       var token = _request.result.toString();
       console.log(token);
